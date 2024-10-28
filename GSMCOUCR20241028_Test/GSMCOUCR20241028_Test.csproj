@@ -19,4 +19,8 @@
     <ProjectReference Include="..\GSMCOUCR20241028Test\GSMCOUCR20241028Test.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+
 </Project>
