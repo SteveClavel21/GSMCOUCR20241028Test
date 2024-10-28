@@ -9,7 +9,6 @@ namespace GSMCOUCR20241028_Test
         public void CalcularRaizCuadradamethod()
         {
             CalcularRaizCuadradaclass calcularRaiz = new();
-
             Assert.AreEqual(5, calcularRaiz.CalcularRaizCuadrada(25));
         }
 
@@ -17,7 +16,6 @@ namespace GSMCOUCR20241028_Test
         public void raizCero()
         {
             CalcularRaizCuadradaclass calcular = new();
-
             Assert.AreEqual(0, calcular.CalcularRaizCuadrada(0));
         }
 
@@ -25,7 +23,6 @@ namespace GSMCOUCR20241028_Test
         public void Negativos()
         {
             CalcularRaizCuadradaclass calcular = new();
-
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => calcular.CalcularRaizCuadrada(-9));
         }
     }
